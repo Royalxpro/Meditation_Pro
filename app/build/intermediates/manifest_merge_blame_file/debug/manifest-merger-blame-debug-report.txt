@@ -1,0 +1,1044 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.busyduniadevs.meditation"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->E:\Meditation\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->E:\Meditation\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Meditation\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\Meditation\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\Meditation\app\src\main\AndroidManifest.xml:6:5-79
+12-->E:\Meditation\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->E:\Meditation\app\src\main\AndroidManifest.xml:7:5-76
+13-->E:\Meditation\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->E:\Meditation\app\src\main\AndroidManifest.xml:8:5-81
+14-->E:\Meditation\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->E:\Meditation\app\src\main\AndroidManifest.xml:9:5-80
+15-->E:\Meditation\app\src\main\AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->E:\Meditation\app\src\main\AndroidManifest.xml:10:5-65
+16-->E:\Meditation\app\src\main\AndroidManifest.xml:10:22-62
+17
+18    <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+19    <permission
+19-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:7:5-9:47
+20        android:name="com.busyduniadevs.meditation.permission.C2D_MESSAGE"
+20-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:8:9-63
+21        android:protectionLevel="signature" />
+21-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:9:9-44
+22
+23    <uses-permission android:name="com.busyduniadevs.meditation.permission.C2D_MESSAGE" /> <!-- OneSignal SDK has runtime checks Android version. -->
+23-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:11:5-79
+23-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:11:22-76
+24    <!-- <uses-sdk tools:overrideLibrary="android.support.customtabs"/> -->
+25    <!-- Required runtime permission to display notifications on Android 13 -->
+26    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- c2dm RECEIVE are basic requirements for push messages through Google's FCM -->
+26-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:16:5-77
+26-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:16:22-74
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
+27-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:18:5-82
+27-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:18:22-79
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:19:5-68
+28-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:19:22-65
+29    <!--
+30 Required so the device vibrates on receiving a push notification.
+31         Vibration settings of the device still apply.
+32    -->
+33    <uses-permission android:name="android.permission.VIBRATE" />
+33-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:24:5-66
+33-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:24:22-63
+34    <!--
+35 Use to restore notifications the user hasn't interacted with.
+36         They could be missed notifications if the user reboots their device if this isn't in place.
+37    -->
+38    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+38-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:30:5-81
+38-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:30:22-78
+39    <!-- Samsung -->
+40    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+40-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:32:5-86
+40-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:32:22-83
+41    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+41-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:33:5-87
+41-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:33:22-84
+42    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+42-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:34:5-81
+42-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:34:22-78
+43    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+43-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:35:5-83
+43-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:35:22-80
+44    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+44-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:36:5-88
+44-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:36:22-85
+45    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+45-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:37:5-92
+45-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:37:22-89
+46    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+46-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:38:5-84
+46-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:38:22-81
+47    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+47-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:39:5-83
+47-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:39:22-80
+48    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+48-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:40:5-91
+48-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:40:22-88
+49    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+49-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:41:5-92
+49-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:41:22-89
+50    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+50-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:42:5-93
+50-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:42:22-90
+51    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+51-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:43:5-73
+51-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:43:22-70
+52    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+52-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:44:5-82
+52-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:44:22-79
+53    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+53-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:45:5-83
+53-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:45:22-80
+54    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+54-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:46:5-88
+54-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:46:22-85
+55    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+55-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:47:5-89
+55-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:47:22-86
+56    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+56-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+56-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+57
+58    <permission
+58-->[androidx.core:core:1.9.0] E:\AndroidQuizOnline_7\caches\transforms-3\987c6ecad3256d76502d9fcc02b14a87\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+59        android:name="com.busyduniadevs.meditation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+59-->[androidx.core:core:1.9.0] E:\AndroidQuizOnline_7\caches\transforms-3\987c6ecad3256d76502d9fcc02b14a87\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+60        android:protectionLevel="signature" />
+60-->[androidx.core:core:1.9.0] E:\AndroidQuizOnline_7\caches\transforms-3\987c6ecad3256d76502d9fcc02b14a87\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+61
+62    <uses-permission android:name="com.busyduniadevs.meditation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+62-->[androidx.core:core:1.9.0] E:\AndroidQuizOnline_7\caches\transforms-3\987c6ecad3256d76502d9fcc02b14a87\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+62-->[androidx.core:core:1.9.0] E:\AndroidQuizOnline_7\caches\transforms-3\987c6ecad3256d76502d9fcc02b14a87\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+63
+64    <application
+64-->E:\Meditation\app\src\main\AndroidManifest.xml:12:5-146:19
+65        android:allowBackup="true"
+65-->E:\Meditation\app\src\main\AndroidManifest.xml:13:9-35
+66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+66-->[androidx.core:core:1.9.0] E:\AndroidQuizOnline_7\caches\transforms-3\987c6ecad3256d76502d9fcc02b14a87\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+67        android:dataExtractionRules="@xml/data_extraction_rules"
+67-->E:\Meditation\app\src\main\AndroidManifest.xml:14:9-65
+68        android:debuggable="true"
+69        android:extractNativeLibs="false"
+70        android:fullBackupContent="@xml/backup_rules"
+70-->E:\Meditation\app\src\main\AndroidManifest.xml:15:9-54
+71        android:icon="@mipmap/ic_launcher"
+71-->E:\Meditation\app\src\main\AndroidManifest.xml:16:9-43
+72        android:label="@string/app_name"
+72-->E:\Meditation\app\src\main\AndroidManifest.xml:17:9-41
+73        android:roundIcon="@mipmap/ic_launcher_round"
+73-->E:\Meditation\app\src\main\AndroidManifest.xml:18:9-54
+74        android:supportsRtl="true"
+74-->E:\Meditation\app\src\main\AndroidManifest.xml:19:9-35
+75        android:testOnly="true"
+76        android:theme="@style/Theme.Meditation" >
+76-->E:\Meditation\app\src\main\AndroidManifest.xml:20:9-48
+77        <activity
+77-->E:\Meditation\app\src\main\AndroidManifest.xml:22:9-28:20
+78            android:name="com.busyduniadevs.meditation.cycling"
+78-->E:\Meditation\app\src\main\AndroidManifest.xml:23:13-36
+79            android:exported="false" >
+79-->E:\Meditation\app\src\main\AndroidManifest.xml:24:13-37
+80            <meta-data
+80-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+81                android:name="android.app.lib_name"
+81-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+82                android:value="" />
+82-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+83        </activity>
+84        <activity
+84-->E:\Meditation\app\src\main\AndroidManifest.xml:29:9-35:20
+85            android:name="com.busyduniadevs.meditation.challangesall.Musclegain"
+85-->E:\Meditation\app\src\main\AndroidManifest.xml:30:13-53
+86            android:exported="false" >
+86-->E:\Meditation\app\src\main\AndroidManifest.xml:31:13-37
+87            <meta-data
+87-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+88                android:name="android.app.lib_name"
+88-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+89                android:value="" />
+89-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+90        </activity>
+91        <activity
+91-->E:\Meditation\app\src\main\AndroidManifest.xml:36:9-42:20
+92            android:name="com.busyduniadevs.meditation.challangesall.fitness"
+92-->E:\Meditation\app\src\main\AndroidManifest.xml:37:13-50
+93            android:exported="false" >
+93-->E:\Meditation\app\src\main\AndroidManifest.xml:38:13-37
+94            <meta-data
+94-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+95                android:name="android.app.lib_name"
+95-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+96                android:value="" />
+96-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+97        </activity>
+98        <activity
+98-->E:\Meditation\app\src\main\AndroidManifest.xml:43:9-49:20
+99            android:name="com.busyduniadevs.meditation.postlikedby.PostLikedByActivity"
+99-->E:\Meditation\app\src\main\AndroidManifest.xml:44:13-60
+100            android:exported="false" >
+100-->E:\Meditation\app\src\main\AndroidManifest.xml:45:13-37
+101            <meta-data
+101-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+102                android:name="android.app.lib_name"
+102-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+103                android:value="" />
+103-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+104        </activity>
+105        <activity
+105-->E:\Meditation\app\src\main\AndroidManifest.xml:50:9-56:20
+106            android:name="com.busyduniadevs.meditation.postdetails.PostDetailsActivity"
+106-->E:\Meditation\app\src\main\AndroidManifest.xml:51:13-60
+107            android:exported="false" >
+107-->E:\Meditation\app\src\main\AndroidManifest.xml:52:13-37
+108            <meta-data
+108-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+109                android:name="android.app.lib_name"
+109-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+110                android:value="" />
+110-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+111        </activity>
+112        <activity
+112-->E:\Meditation\app\src\main\AndroidManifest.xml:57:9-63:20
+113            android:name="com.busyduniadevs.meditation.challangesall.Yoga"
+113-->E:\Meditation\app\src\main\AndroidManifest.xml:58:13-47
+114            android:exported="false" >
+114-->E:\Meditation\app\src\main\AndroidManifest.xml:59:13-37
+115            <meta-data
+115-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+116                android:name="android.app.lib_name"
+116-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+117                android:value="" />
+117-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+118        </activity>
+119        <activity
+119-->E:\Meditation\app\src\main\AndroidManifest.xml:64:9-70:20
+120            android:name="com.busyduniadevs.meditation.challangesall.FinalActivity"
+120-->E:\Meditation\app\src\main\AndroidManifest.xml:65:13-56
+121            android:exported="false" >
+121-->E:\Meditation\app\src\main\AndroidManifest.xml:66:13-37
+122            <meta-data
+122-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+123                android:name="android.app.lib_name"
+123-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+124                android:value="" />
+124-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+125        </activity>
+126        <activity
+126-->E:\Meditation\app\src\main\AndroidManifest.xml:71:9-77:20
+127            android:name="com.busyduniadevs.meditation.seventyfivedays.AllExercises"
+127-->E:\Meditation\app\src\main\AndroidManifest.xml:72:13-57
+128            android:exported="false" >
+128-->E:\Meditation\app\src\main\AndroidManifest.xml:73:13-37
+129            <meta-data
+129-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+130                android:name="android.app.lib_name"
+130-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+131                android:value="" />
+131-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+132        </activity>
+133        <activity
+133-->E:\Meditation\app\src\main\AndroidManifest.xml:78:9-84:20
+134            android:name="com.busyduniadevs.meditation.plans.ShowNewsContentActivity"
+134-->E:\Meditation\app\src\main\AndroidManifest.xml:79:13-58
+135            android:exported="false" >
+135-->E:\Meditation\app\src\main\AndroidManifest.xml:80:13-37
+136            <meta-data
+136-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+137                android:name="android.app.lib_name"
+137-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+138                android:value="" />
+138-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+139        </activity>
+140        <activity
+140-->E:\Meditation\app\src\main\AndroidManifest.xml:85:9-91:20
+141            android:name="com.busyduniadevs.meditation.plans.Meal"
+141-->E:\Meditation\app\src\main\AndroidManifest.xml:86:13-39
+142            android:exported="false" >
+142-->E:\Meditation\app\src\main\AndroidManifest.xml:87:13-37
+143            <meta-data
+143-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+144                android:name="android.app.lib_name"
+144-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+145                android:value="" />
+145-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+146        </activity>
+147        <activity
+147-->E:\Meditation\app\src\main\AndroidManifest.xml:92:9-104:20
+148            android:name="com.busyduniadevs.meditation.starterfragment.SplashScreen"
+148-->E:\Meditation\app\src\main\AndroidManifest.xml:93:13-57
+149            android:exported="true" >
+149-->E:\Meditation\app\src\main\AndroidManifest.xml:94:13-36
+150            <intent-filter>
+150-->E:\Meditation\app\src\main\AndroidManifest.xml:95:13-99:29
+151                <action android:name="android.intent.action.MAIN" />
+151-->E:\Meditation\app\src\main\AndroidManifest.xml:96:17-69
+151-->E:\Meditation\app\src\main\AndroidManifest.xml:96:25-66
+152
+153                <category android:name="android.intent.category.LAUNCHER" />
+153-->E:\Meditation\app\src\main\AndroidManifest.xml:98:17-77
+153-->E:\Meditation\app\src\main\AndroidManifest.xml:98:27-74
+154            </intent-filter>
+155
+156            <meta-data
+156-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+157                android:name="android.app.lib_name"
+157-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+158                android:value="" />
+158-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+159        </activity>
+160        <activity
+160-->E:\Meditation\app\src\main\AndroidManifest.xml:105:9-111:20
+161            android:name="com.busyduniadevs.meditation.starterfragment.WelcomeSecond"
+161-->E:\Meditation\app\src\main\AndroidManifest.xml:106:13-58
+162            android:exported="false" >
+162-->E:\Meditation\app\src\main\AndroidManifest.xml:107:13-37
+163            <meta-data
+163-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+164                android:name="android.app.lib_name"
+164-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+165                android:value="" />
+165-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+166        </activity>
+167        <activity
+167-->E:\Meditation\app\src\main\AndroidManifest.xml:112:9-118:20
+168            android:name="com.busyduniadevs.meditation.starterfragment.WelcomeFirst"
+168-->E:\Meditation\app\src\main\AndroidManifest.xml:113:13-57
+169            android:exported="false" >
+169-->E:\Meditation\app\src\main\AndroidManifest.xml:114:13-37
+170            <meta-data
+170-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+171                android:name="android.app.lib_name"
+171-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+172                android:value="" />
+172-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+173        </activity>
+174        <activity
+174-->E:\Meditation\app\src\main\AndroidManifest.xml:119:9-125:20
+175            android:name="com.busyduniadevs.meditation.authentication.Register"
+175-->E:\Meditation\app\src\main\AndroidManifest.xml:120:13-52
+176            android:exported="false" >
+176-->E:\Meditation\app\src\main\AndroidManifest.xml:121:13-37
+177            <meta-data
+177-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+178                android:name="android.app.lib_name"
+178-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+179                android:value="" />
+179-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+180        </activity>
+181        <activity
+181-->E:\Meditation\app\src\main\AndroidManifest.xml:126:9-132:20
+182            android:name="com.busyduniadevs.meditation.authentication.Login"
+182-->E:\Meditation\app\src\main\AndroidManifest.xml:127:13-49
+183            android:exported="false" >
+183-->E:\Meditation\app\src\main\AndroidManifest.xml:128:13-37
+184            <meta-data
+184-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+185                android:name="android.app.lib_name"
+185-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+186                android:value="" />
+186-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+187        </activity>
+188        <activity
+188-->E:\Meditation\app\src\main\AndroidManifest.xml:133:9-145:20
+189            android:name="com.busyduniadevs.meditation.MainActivity"
+189-->E:\Meditation\app\src\main\AndroidManifest.xml:134:13-41
+190            android:exported="true" >
+190-->E:\Meditation\app\src\main\AndroidManifest.xml:135:13-36
+191            <intent-filter>
+191-->E:\Meditation\app\src\main\AndroidManifest.xml:95:13-99:29
+192                <action android:name="android.intent.action.MAIN" />
+192-->E:\Meditation\app\src\main\AndroidManifest.xml:96:17-69
+192-->E:\Meditation\app\src\main\AndroidManifest.xml:96:25-66
+193
+194                <category android:name="android.intent.category.LAUNCHER" />
+194-->E:\Meditation\app\src\main\AndroidManifest.xml:98:17-77
+194-->E:\Meditation\app\src\main\AndroidManifest.xml:98:27-74
+195            </intent-filter>
+196
+197            <meta-data
+197-->E:\Meditation\app\src\main\AndroidManifest.xml:25:13-27:36
+198                android:name="android.app.lib_name"
+198-->E:\Meditation\app\src\main\AndroidManifest.xml:26:17-52
+199                android:value="" />
+199-->E:\Meditation\app\src\main\AndroidManifest.xml:27:17-33
+200        </activity>
+201
+202        <receiver
+202-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:50:9-61:20
+203            android:name="com.onesignal.FCMBroadcastReceiver"
+203-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:51:13-62
+204            android:exported="true"
+204-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:52:13-36
+205            android:permission="com.google.android.c2dm.permission.SEND" >
+205-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:53:13-73
+206
+207            <!-- High priority so OneSignal payloads can be filtered from other FCM receivers -->
+208            <intent-filter android:priority="999" >
+208-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:56:13-60:29
+208-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:56:28-50
+209                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+209-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:57:17-81
+209-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:57:25-78
+210
+211                <category android:name="com.busyduniadevs.meditation" />
+211-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:59:17-61
+211-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:59:27-58
+212            </intent-filter>
+213        </receiver>
+214
+215        <service
+215-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:63:9-69:19
+216            android:name="com.onesignal.HmsMessageServiceOneSignal"
+216-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:64:13-68
+217            android:exported="false" >
+217-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:65:13-37
+218            <intent-filter>
+218-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:66:13-68:29
+219                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+219-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:67:17-81
+219-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:67:25-78
+220            </intent-filter>
+221        </service>
+222
+223        <activity
+223-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:71:9-79:20
+224            android:name="com.onesignal.NotificationOpenedActivityHMS"
+224-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:72:13-71
+225            android:exported="true"
+225-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:73:13-36
+226            android:noHistory="true"
+226-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:74:13-37
+227            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+227-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:75:13-72
+228            <intent-filter>
+228-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:76:13-78:29
+229                <action android:name="android.intent.action.VIEW" />
+229-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:77:17-69
+229-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:77:25-66
+230            </intent-filter>
+231        </activity>
+232
+233        <service
+233-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:81:9-83:40
+234            android:name="com.onesignal.FCMIntentService"
+234-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:82:13-58
+235            android:exported="false" />
+235-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:83:13-37
+236        <service
+236-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:84:9-87:72
+237            android:name="com.onesignal.FCMIntentJobService"
+237-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:85:13-61
+238            android:exported="false"
+238-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:86:13-37
+239            android:permission="android.permission.BIND_JOB_SERVICE" />
+239-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:87:13-69
+240        <service
+240-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:88:9-91:43
+241            android:name="com.onesignal.SyncService"
+241-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:89:13-53
+242            android:exported="false"
+242-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:90:13-37
+243            android:stopWithTask="true" />
+243-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:91:13-40
+244        <service
+244-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:92:9-95:72
+245            android:name="com.onesignal.SyncJobService"
+245-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:93:13-56
+246            android:exported="false"
+246-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:94:13-37
+247            android:permission="android.permission.BIND_JOB_SERVICE" />
+247-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:95:13-69
+248
+249        <activity
+249-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:97:9-100:75
+250            android:name="com.onesignal.PermissionsActivity"
+250-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:98:13-61
+251            android:exported="false"
+251-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:99:13-37
+252            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+252-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:100:13-72
+253
+254        <receiver
+254-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:102:9-104:39
+255            android:name="com.onesignal.NotificationDismissReceiver"
+255-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:103:13-69
+256            android:exported="true" />
+256-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:104:13-36
+257        <receiver
+257-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:105:9-112:20
+258            android:name="com.onesignal.BootUpReceiver"
+258-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:106:13-56
+259            android:exported="true" >
+259-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:107:13-36
+260            <intent-filter>
+260-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:108:13-111:29
+261                <action android:name="android.intent.action.BOOT_COMPLETED" />
+261-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:109:17-79
+261-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:109:25-76
+262                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+262-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:110:17-82
+262-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:110:25-79
+263            </intent-filter>
+264        </receiver>
+265        <receiver
+265-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:113:9-119:20
+266            android:name="com.onesignal.UpgradeReceiver"
+266-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:114:13-57
+267            android:exported="true" >
+267-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:115:13-36
+268            <intent-filter>
+268-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:116:13-118:29
+269                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+269-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:117:17-84
+269-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:117:25-81
+270            </intent-filter>
+271        </receiver>
+272
+273        <activity
+273-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:121:9-127:75
+274            android:name="com.onesignal.NotificationOpenedReceiver"
+274-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:122:13-68
+275            android:excludeFromRecents="true"
+275-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:123:13-46
+276            android:exported="true"
+276-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:124:13-36
+277            android:noHistory="true"
+277-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:125:13-37
+278            android:taskAffinity=""
+278-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:126:13-36
+279            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+279-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:127:13-72
+280        <activity
+280-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:128:9-133:75
+281            android:name="com.onesignal.NotificationOpenedReceiverAndroid22AndOlder"
+281-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:129:13-85
+282            android:excludeFromRecents="true"
+282-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:130:13-46
+283            android:exported="true"
+283-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:131:13-36
+284            android:noHistory="true"
+284-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:132:13-37
+285            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+285-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:133:13-72
+286        <activity
+286-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+287            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+287-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+288            android:excludeFromRecents="true"
+288-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+289            android:exported="true"
+289-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+290            android:launchMode="singleTask"
+290-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+291            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+291-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+292            <intent-filter>
+292-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+293                <action android:name="android.intent.action.VIEW" />
+293-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:77:17-69
+293-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:77:25-66
+294
+295                <category android:name="android.intent.category.DEFAULT" />
+295-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+295-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+296                <category android:name="android.intent.category.BROWSABLE" />
+296-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+296-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+297
+298                <data
+298-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+299                    android:host="firebase.auth"
+299-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+300                    android:path="/"
+300-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+301                    android:scheme="genericidp" />
+301-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+302            </intent-filter>
+303        </activity>
+304        <activity
+304-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+305            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+305-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+306            android:excludeFromRecents="true"
+306-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+307            android:exported="true"
+307-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+308            android:launchMode="singleTask"
+308-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+309            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+309-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+310            <intent-filter>
+310-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+311                <action android:name="android.intent.action.VIEW" />
+311-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:77:17-69
+311-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:77:25-66
+312
+313                <category android:name="android.intent.category.DEFAULT" />
+313-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+313-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+314                <category android:name="android.intent.category.BROWSABLE" />
+314-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+314-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+315
+316                <data
+316-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+317                    android:host="firebase.auth"
+317-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+318                    android:path="/"
+318-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+319                    android:scheme="recaptcha" />
+319-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+320            </intent-filter>
+321        </activity>
+322
+323        <service
+323-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:66:9-72:19
+324            android:name="com.google.firebase.components.ComponentDiscoveryService"
+324-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:67:13-84
+325            android:directBootAware="true"
+325-->[com.google.firebase:firebase-common:20.3.2] E:\AndroidQuizOnline_7\caches\transforms-3\1eaa612b37b70dc76558f970947c8958\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+326            android:exported="false" >
+326-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:68:13-37
+327            <meta-data
+327-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+328                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+328-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+329                android:value="com.google.firebase.components.ComponentRegistrar" />
+329-->[com.google.firebase:firebase-auth:22.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\1a036b61b48acc8444b687a0a767992b\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+330            <meta-data
+330-->[com.google.firebase:firebase-firestore:24.6.1] E:\AndroidQuizOnline_7\caches\transforms-3\c7e766e1dfdec67a494cbacef7ad1aed\transformed\jetified-firebase-firestore-24.6.1\AndroidManifest.xml:19:13-21:85
+331                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+331-->[com.google.firebase:firebase-firestore:24.6.1] E:\AndroidQuizOnline_7\caches\transforms-3\c7e766e1dfdec67a494cbacef7ad1aed\transformed\jetified-firebase-firestore-24.6.1\AndroidManifest.xml:20:17-111
+332                android:value="com.google.firebase.components.ComponentRegistrar" />
+332-->[com.google.firebase:firebase-firestore:24.6.1] E:\AndroidQuizOnline_7\caches\transforms-3\c7e766e1dfdec67a494cbacef7ad1aed\transformed\jetified-firebase-firestore-24.6.1\AndroidManifest.xml:21:17-82
+333            <meta-data
+333-->[com.google.firebase:firebase-storage:20.2.1] E:\AndroidQuizOnline_7\caches\transforms-3\ed1dcd7551bc58563372013d9b4a6b3e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:32:13-34:85
+334                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+334-->[com.google.firebase:firebase-storage:20.2.1] E:\AndroidQuizOnline_7\caches\transforms-3\ed1dcd7551bc58563372013d9b4a6b3e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:33:17-107
+335                android:value="com.google.firebase.components.ComponentRegistrar" />
+335-->[com.google.firebase:firebase-storage:20.2.1] E:\AndroidQuizOnline_7\caches\transforms-3\ed1dcd7551bc58563372013d9b4a6b3e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:34:17-82
+336            <meta-data
+336-->[com.google.firebase:firebase-database:20.2.2] E:\AndroidQuizOnline_7\caches\transforms-3\dbf162162e31c55e5d1635236e9ecce7\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:31:13-33:85
+337                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+337-->[com.google.firebase:firebase-database:20.2.2] E:\AndroidQuizOnline_7\caches\transforms-3\dbf162162e31c55e5d1635236e9ecce7\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:32:17-109
+338                android:value="com.google.firebase.components.ComponentRegistrar" />
+338-->[com.google.firebase:firebase-database:20.2.2] E:\AndroidQuizOnline_7\caches\transforms-3\dbf162162e31c55e5d1635236e9ecce7\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:33:17-82
+339            <meta-data
+339-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:55:13-57:85
+340                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+340-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:56:17-119
+341                android:value="com.google.firebase.components.ComponentRegistrar" />
+341-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:57:17-82
+342            <meta-data
+342-->[com.google.firebase:firebase-datatransport:18.1.7] E:\AndroidQuizOnline_7\caches\transforms-3\8ea6bed704321a0fdab3c6e9e116b720\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+343                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+343-->[com.google.firebase:firebase-datatransport:18.1.7] E:\AndroidQuizOnline_7\caches\transforms-3\8ea6bed704321a0fdab3c6e9e116b720\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+344                android:value="com.google.firebase.components.ComponentRegistrar" />
+344-->[com.google.firebase:firebase-datatransport:18.1.7] E:\AndroidQuizOnline_7\caches\transforms-3\8ea6bed704321a0fdab3c6e9e116b720\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+345            <meta-data
+345-->[com.google.firebase:firebase-installations:17.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\e04b5d740ebaacf480713d363d4844df\transformed\jetified-firebase-installations-17.1.1\AndroidManifest.xml:17:13-19:85
+346                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+346-->[com.google.firebase:firebase-installations:17.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\e04b5d740ebaacf480713d363d4844df\transformed\jetified-firebase-installations-17.1.1\AndroidManifest.xml:18:17-127
+347                android:value="com.google.firebase.components.ComponentRegistrar" />
+347-->[com.google.firebase:firebase-installations:17.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\e04b5d740ebaacf480713d363d4844df\transformed\jetified-firebase-installations-17.1.1\AndroidManifest.xml:19:17-82
+348        </service>
+349
+350        <receiver
+350-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:31:9-38:20
+351            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+351-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:32:13-78
+352            android:exported="true"
+352-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:33:13-36
+353            android:permission="com.google.android.c2dm.permission.SEND" >
+353-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:34:13-73
+354            <intent-filter>
+354-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:35:13-37:29
+355                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+355-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:57:17-81
+355-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:57:25-78
+356            </intent-filter>
+357        </receiver>
+358        <!--
+359             FirebaseMessagingService performs security checks at runtime,
+360             but set to not exported to explicitly avoid allowing another app to call it.
+361        -->
+362        <service
+362-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:44:9-51:19
+363            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+363-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:45:13-82
+364            android:directBootAware="true"
+364-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:46:13-43
+365            android:exported="false" >
+365-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:47:13-37
+366            <intent-filter android:priority="-500" >
+366-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:48:13-50:29
+366-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:48:28-51
+367                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+367-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:49:17-78
+367-->[com.google.firebase:firebase-messaging:23.1.1] E:\AndroidQuizOnline_7\caches\transforms-3\c6c2e3790de0f2a3de1ea56d451e4c7b\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:49:25-75
+368            </intent-filter>
+369        </service>
+370
+371        <provider
+371-->[com.google.firebase:firebase-common:20.3.2] E:\AndroidQuizOnline_7\caches\transforms-3\1eaa612b37b70dc76558f970947c8958\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+372            android:name="com.google.firebase.provider.FirebaseInitProvider"
+372-->[com.google.firebase:firebase-common:20.3.2] E:\AndroidQuizOnline_7\caches\transforms-3\1eaa612b37b70dc76558f970947c8958\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+373            android:authorities="com.busyduniadevs.meditation.firebaseinitprovider"
+373-->[com.google.firebase:firebase-common:20.3.2] E:\AndroidQuizOnline_7\caches\transforms-3\1eaa612b37b70dc76558f970947c8958\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+374            android:directBootAware="true"
+374-->[com.google.firebase:firebase-common:20.3.2] E:\AndroidQuizOnline_7\caches\transforms-3\1eaa612b37b70dc76558f970947c8958\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+375            android:exported="false"
+375-->[com.google.firebase:firebase-common:20.3.2] E:\AndroidQuizOnline_7\caches\transforms-3\1eaa612b37b70dc76558f970947c8958\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+376            android:initOrder="100" />
+376-->[com.google.firebase:firebase-common:20.3.2] E:\AndroidQuizOnline_7\caches\transforms-3\1eaa612b37b70dc76558f970947c8958\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+377
+378        <activity
+378-->[com.google.android.gms:play-services-base:18.1.0] E:\AndroidQuizOnline_7\caches\transforms-3\db5e365bd5316c21238b869b1cc880bb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+379            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+379-->[com.google.android.gms:play-services-base:18.1.0] E:\AndroidQuizOnline_7\caches\transforms-3\db5e365bd5316c21238b869b1cc880bb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+380            android:exported="false"
+380-->[com.google.android.gms:play-services-base:18.1.0] E:\AndroidQuizOnline_7\caches\transforms-3\db5e365bd5316c21238b869b1cc880bb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+381            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+381-->[com.google.android.gms:play-services-base:18.1.0] E:\AndroidQuizOnline_7\caches\transforms-3\db5e365bd5316c21238b869b1cc880bb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+382
+383        <meta-data
+383-->[com.google.android.gms:play-services-basement:18.1.0] E:\AndroidQuizOnline_7\caches\transforms-3\8a458c3d99a630a58d18037b10782079\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+384            android:name="com.google.android.gms.version"
+384-->[com.google.android.gms:play-services-basement:18.1.0] E:\AndroidQuizOnline_7\caches\transforms-3\8a458c3d99a630a58d18037b10782079\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+385            android:value="@integer/google_play_services_version" />
+385-->[com.google.android.gms:play-services-basement:18.1.0] E:\AndroidQuizOnline_7\caches\transforms-3\8a458c3d99a630a58d18037b10782079\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+386
+387        <provider
+387-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+388            android:name="androidx.startup.InitializationProvider"
+388-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+389            android:authorities="com.busyduniadevs.meditation.androidx-startup"
+389-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+390            android:exported="false" >
+390-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+391            <meta-data
+391-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+392                android:name="androidx.work.WorkManagerInitializer"
+392-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+393                android:value="androidx.startup" />
+393-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+394            <meta-data
+394-->[androidx.emoji2:emoji2:1.2.0] E:\AndroidQuizOnline_7\caches\transforms-3\45aa2c4f739a0df8ada7ec0d38e7f025\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+395                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+395-->[androidx.emoji2:emoji2:1.2.0] E:\AndroidQuizOnline_7\caches\transforms-3\45aa2c4f739a0df8ada7ec0d38e7f025\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+396                android:value="androidx.startup" />
+396-->[androidx.emoji2:emoji2:1.2.0] E:\AndroidQuizOnline_7\caches\transforms-3\45aa2c4f739a0df8ada7ec0d38e7f025\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+397            <meta-data
+397-->[androidx.lifecycle:lifecycle-process:2.6.2] E:\AndroidQuizOnline_7\caches\transforms-3\7f81e10484aca82bb70facd4db13c0b6\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+398                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+398-->[androidx.lifecycle:lifecycle-process:2.6.2] E:\AndroidQuizOnline_7\caches\transforms-3\7f81e10484aca82bb70facd4db13c0b6\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+399                android:value="androidx.startup" />
+399-->[androidx.lifecycle:lifecycle-process:2.6.2] E:\AndroidQuizOnline_7\caches\transforms-3\7f81e10484aca82bb70facd4db13c0b6\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+400            <meta-data
+400-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+401                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+401-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+402                android:value="androidx.startup" />
+402-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+403        </provider>
+404
+405        <service
+405-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+406            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+406-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+407            android:directBootAware="false"
+407-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+408            android:enabled="@bool/enable_system_alarm_service_default"
+408-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+409            android:exported="false" />
+409-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+410        <service
+410-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+411            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+411-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+412            android:directBootAware="false"
+412-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+413            android:enabled="@bool/enable_system_job_service_default"
+413-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+414            android:exported="true"
+414-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+415            android:permission="android.permission.BIND_JOB_SERVICE" />
+415-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+416        <service
+416-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+417            android:name="androidx.work.impl.foreground.SystemForegroundService"
+417-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+418            android:directBootAware="false"
+418-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+419            android:enabled="@bool/enable_system_foreground_service_default"
+419-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+420            android:exported="false" />
+420-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+421
+422        <receiver
+422-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+423            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+423-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+424            android:directBootAware="false"
+424-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+425            android:enabled="true"
+425-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+426            android:exported="false" />
+426-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+427        <receiver
+427-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+428            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+428-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+429            android:directBootAware="false"
+429-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+430            android:enabled="false"
+430-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+431            android:exported="false" >
+431-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+432            <intent-filter>
+432-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+433                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+433-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+433-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+434                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+434-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+434-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+435            </intent-filter>
+436        </receiver>
+437        <receiver
+437-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+438            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+438-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+439            android:directBootAware="false"
+439-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+440            android:enabled="false"
+440-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+441            android:exported="false" >
+441-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+442            <intent-filter>
+442-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+443                <action android:name="android.intent.action.BATTERY_OKAY" />
+443-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+443-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+444                <action android:name="android.intent.action.BATTERY_LOW" />
+444-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+444-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+445            </intent-filter>
+446        </receiver>
+447        <receiver
+447-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+448            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+448-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+449            android:directBootAware="false"
+449-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+450            android:enabled="false"
+450-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+451            android:exported="false" >
+451-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+452            <intent-filter>
+452-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+453                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+453-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+453-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+454                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+454-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+454-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+455            </intent-filter>
+456        </receiver>
+457        <receiver
+457-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+458            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+458-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+459            android:directBootAware="false"
+459-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+460            android:enabled="false"
+460-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+461            android:exported="false" >
+461-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+462            <intent-filter>
+462-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+463                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+463-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+463-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+464            </intent-filter>
+465        </receiver>
+466        <receiver
+466-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+467            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+467-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+468            android:directBootAware="false"
+468-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+469            android:enabled="false"
+469-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+470            android:exported="false" >
+470-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+471            <intent-filter>
+471-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+472                <action android:name="android.intent.action.BOOT_COMPLETED" />
+472-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:109:17-79
+472-->[com.onesignal:OneSignal:4.8.6] E:\AndroidQuizOnline_7\caches\transforms-3\a148c82dea8160f12f8791b4a0fe4545\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:109:25-76
+473                <action android:name="android.intent.action.TIME_SET" />
+473-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+473-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+474                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+474-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+474-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+475            </intent-filter>
+476        </receiver>
+477        <receiver
+477-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+478            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+478-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+479            android:directBootAware="false"
+479-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+480            android:enabled="@bool/enable_system_alarm_service_default"
+480-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+481            android:exported="false" >
+481-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+482            <intent-filter>
+482-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+483                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+483-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+483-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+484            </intent-filter>
+485        </receiver>
+486        <receiver
+486-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+487            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+487-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+488            android:directBootAware="false"
+488-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+489            android:enabled="true"
+489-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+490            android:exported="true"
+490-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+491            android:permission="android.permission.DUMP" >
+491-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+492            <intent-filter>
+492-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+493                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+493-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+493-->[androidx.work:work-runtime:2.7.1] E:\AndroidQuizOnline_7\caches\transforms-3\53aedfe222a9292f67118dff53d4c91e\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+494            </intent-filter>
+495        </receiver>
+496
+497        <uses-library
+497-->[androidx.window:window:1.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\824bb406e0640bdd625fb02e5ed5de5c\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+498            android:name="androidx.window.extensions"
+498-->[androidx.window:window:1.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\824bb406e0640bdd625fb02e5ed5de5c\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+499            android:required="false" />
+499-->[androidx.window:window:1.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\824bb406e0640bdd625fb02e5ed5de5c\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+500        <uses-library
+500-->[androidx.window:window:1.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\824bb406e0640bdd625fb02e5ed5de5c\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+501            android:name="androidx.window.sidecar"
+501-->[androidx.window:window:1.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\824bb406e0640bdd625fb02e5ed5de5c\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+502            android:required="false" />
+502-->[androidx.window:window:1.0.0] E:\AndroidQuizOnline_7\caches\transforms-3\824bb406e0640bdd625fb02e5ed5de5c\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+503
+504        <provider
+504-->[com.squareup.picasso:picasso:2.71828] E:\AndroidQuizOnline_7\caches\transforms-3\5891259624b98cb10bf229927f249136\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+505            android:name="com.squareup.picasso.PicassoProvider"
+505-->[com.squareup.picasso:picasso:2.71828] E:\AndroidQuizOnline_7\caches\transforms-3\5891259624b98cb10bf229927f249136\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+506            android:authorities="com.busyduniadevs.meditation.com.squareup.picasso"
+506-->[com.squareup.picasso:picasso:2.71828] E:\AndroidQuizOnline_7\caches\transforms-3\5891259624b98cb10bf229927f249136\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+507            android:exported="false" />
+507-->[com.squareup.picasso:picasso:2.71828] E:\AndroidQuizOnline_7\caches\transforms-3\5891259624b98cb10bf229927f249136\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+508
+509        <service
+509-->[com.google.android.datatransport:transport-backend-cct:3.1.8] E:\AndroidQuizOnline_7\caches\transforms-3\dd7ce1276bcc24a4bf46b60d4313d040\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+510            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+510-->[com.google.android.datatransport:transport-backend-cct:3.1.8] E:\AndroidQuizOnline_7\caches\transforms-3\dd7ce1276bcc24a4bf46b60d4313d040\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+511            android:exported="false" >
+511-->[com.google.android.datatransport:transport-backend-cct:3.1.8] E:\AndroidQuizOnline_7\caches\transforms-3\dd7ce1276bcc24a4bf46b60d4313d040\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+512            <meta-data
+512-->[com.google.android.datatransport:transport-backend-cct:3.1.8] E:\AndroidQuizOnline_7\caches\transforms-3\dd7ce1276bcc24a4bf46b60d4313d040\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+513                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+513-->[com.google.android.datatransport:transport-backend-cct:3.1.8] E:\AndroidQuizOnline_7\caches\transforms-3\dd7ce1276bcc24a4bf46b60d4313d040\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+514                android:value="cct" />
+514-->[com.google.android.datatransport:transport-backend-cct:3.1.8] E:\AndroidQuizOnline_7\caches\transforms-3\dd7ce1276bcc24a4bf46b60d4313d040\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+515        </service>
+516        <service
+516-->[com.google.android.datatransport:transport-runtime:3.1.8] E:\AndroidQuizOnline_7\caches\transforms-3\593780c7aeaba61d05c40caf094e7c8e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+517            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+517-->[com.google.android.datatransport:transport-runtime:3.1.8] E:\AndroidQuizOnline_7\caches\transforms-3\593780c7aeaba61d05c40caf094e7c8e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+518            android:exported="false"
+518-->[com.google.android.datatransport:transport-runtime:3.1.8] E:\AndroidQuizOnline_7\caches\transforms-3\593780c7aeaba61d05c40caf094e7c8e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+519            android:permission="android.permission.BIND_JOB_SERVICE" >
+519-->[com.google.android.datatransport:transport-runtime:3.1.8] E:\AndroidQuizOnline_7\caches\transforms-3\593780c7aeaba61d05c40caf094e7c8e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+520        </service>
+521
+522        <receiver
+522-->[com.google.android.datatransport:transport-runtime:3.1.8] E:\AndroidQuizOnline_7\caches\transforms-3\593780c7aeaba61d05c40caf094e7c8e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+523            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+523-->[com.google.android.datatransport:transport-runtime:3.1.8] E:\AndroidQuizOnline_7\caches\transforms-3\593780c7aeaba61d05c40caf094e7c8e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+524            android:exported="false" />
+524-->[com.google.android.datatransport:transport-runtime:3.1.8] E:\AndroidQuizOnline_7\caches\transforms-3\593780c7aeaba61d05c40caf094e7c8e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+525        <receiver
+525-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+526            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+526-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+527            android:directBootAware="false"
+527-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+528            android:enabled="true"
+528-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+529            android:exported="true"
+529-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+530            android:permission="android.permission.DUMP" >
+530-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+531            <intent-filter>
+531-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+532                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+532-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+532-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+533            </intent-filter>
+534            <intent-filter>
+534-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+535                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+535-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+535-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+536            </intent-filter>
+537            <intent-filter>
+537-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+538                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+538-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+538-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+539            </intent-filter>
+540            <intent-filter>
+540-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+541                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+541-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+541-->[androidx.profileinstaller:profileinstaller:1.3.0] E:\AndroidQuizOnline_7\caches\transforms-3\67f5c8bce1693ca54ae9970cb20e8fd5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+542            </intent-filter>
+543        </receiver>
+544
+545        <service
+545-->[androidx.room:room-runtime:2.2.5] E:\AndroidQuizOnline_7\caches\transforms-3\6d87f8347893df0fafe020f1aa1bf669\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+546            android:name="androidx.room.MultiInstanceInvalidationService"
+546-->[androidx.room:room-runtime:2.2.5] E:\AndroidQuizOnline_7\caches\transforms-3\6d87f8347893df0fafe020f1aa1bf669\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+547            android:directBootAware="true"
+547-->[androidx.room:room-runtime:2.2.5] E:\AndroidQuizOnline_7\caches\transforms-3\6d87f8347893df0fafe020f1aa1bf669\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+548            android:exported="false" />
+548-->[androidx.room:room-runtime:2.2.5] E:\AndroidQuizOnline_7\caches\transforms-3\6d87f8347893df0fafe020f1aa1bf669\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+549    </application>
+550
+551</manifest>

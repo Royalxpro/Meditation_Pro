@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Meditation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="embark_on_a_journey_to_a_healthier_stronger_you_explore_personalized_workouts_exciting_challenges_and_a_community_of_fitness_enthusiasts_cheering_you_on">Embark on a journey to a healthier, stronger you. Explore personalized workouts, exciting challenges, and a community of fitness enthusiasts cheering you on!</string>
+    <string name="every_champion_starts_somewhere_will_it_be_with_a_login_or_a_registration">"Greetings, champion! Whether you're returning to conquer new challenges or gearing up for your first fitness adventure, we've got you covered. Sign in to continue your fitness conquest or register now to unlock a world of exciting workouts and challenges. Let's make every drop of sweat count!"</string>
+    <string name="title_activity_show_challanges">ShowChallanges</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="selected_time">Selected Time: %1$d minutes</string>
+    <string name="selected_cal"> %1$d </string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

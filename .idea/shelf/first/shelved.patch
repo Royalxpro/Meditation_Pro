@@ -1,0 +1,69 @@
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision 1e3d0a2379384d5bae3e88209f30202defb717ae)
++++ /dev/null	(revision 1e3d0a2379384d5bae3e88209f30202defb717ae)
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: .gitignore
+===================================================================
+diff --git a/.gitignore b/.gitignore
+deleted file mode 100644
+--- a/.gitignore	(revision 1e3d0a2379384d5bae3e88209f30202defb717ae)
++++ /dev/null	(revision 1e3d0a2379384d5bae3e88209f30202defb717ae)
+@@ -1,15 +0,0 @@
+-*.iml
+-.gradle
+-/local.properties
+-/.idea/caches
+-/.idea/libraries
+-/.idea/modules.xml
+-/.idea/workspace.xml
+-/.idea/navEditor.xml
+-/.idea/assetWizardSettings.xml
+-.DS_Store
+-/build
+-/captures
+-.externalNativeBuild
+-.cxx
+-local.properties
+Index: app/release/output-metadata.json
+===================================================================
+diff --git a/app/release/output-metadata.json b/app/release/output-metadata.json
+deleted file mode 100644
+--- a/app/release/output-metadata.json	(revision 1e3d0a2379384d5bae3e88209f30202defb717ae)
++++ /dev/null	(revision 1e3d0a2379384d5bae3e88209f30202defb717ae)
+@@ -1,20 +0,0 @@
+-{
+-  "version": 3,
+-  "artifactType": {
+-    "type": "APK",
+-    "kind": "Directory"
+-  },
+-  "applicationId": "com.busyduniadevs.meditation",
+-  "variantName": "release",
+-  "elements": [
+-    {
+-      "type": "SINGLE",
+-      "filters": [],
+-      "attributes": [],
+-      "versionCode": 1,
+-      "versionName": "1.0",
+-      "outputFile": "app-release.apk"
+-    }
+-  ],
+-  "elementType": "File"
+-}
+\ No newline at end of file
+Index: app/.gitignore
+===================================================================
+diff --git a/app/.gitignore b/app/.gitignore
+deleted file mode 100644
+--- a/app/.gitignore	(revision 1e3d0a2379384d5bae3e88209f30202defb717ae)
++++ /dev/null	(revision 1e3d0a2379384d5bae3e88209f30202defb717ae)
+@@ -1,1 +0,0 @@
+-/build
+\ No newline at end of file

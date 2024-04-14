@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="SelectedIcon">#fff</color>
+    <color name="background_color">#ffffff</color>
+    <color name="backgroundbottomcolor">#FFFFFF</color>
+    <color name="bg_color">#f4f4f4</color>
+    <color name="black">#000000</color>
+    <color name="blue">#1D6CBA</color>
+    <color name="blue_light">#54C1FF</color>
+    <color name="btnRed">#E61313</color>
+    <color name="btnedit">#2CA7E0</color>
+    <color name="circelcolor">#888BF4</color>
+    <color name="colorAccent">#1D6CBA</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#F5F1F1</color>
+    <color name="colorGray02">#f5f0f0</color>
+    <color name="colorGreen">#17581A</color>
+    <color name="colorPrimary">#66FFFF</color>
+    <color name="colorPrimaryDark">#CC66FF</color>
+    <color name="colorRed">#F4511E</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colordrawer">#2B2C2E</color>
+    <color name="colorgray01">#959595</color>
+    <color name="correct">#3cd968</color>
+    <color name="countbackground">#f45E0B</color>
+    <color name="counttext">#fff</color>
+    <color name="dark_gray">#504F4F</color>
+    <color name="dark_red">#ff634e</color>
+    <color name="defaulticon">#5E5F60</color>
+    <color name="edt_bg">#ecf5f8</color>
+    <color name="endColor">#5151C6</color>
+    <color name="gray">#808080</color>
+    <color name="gray1">#f1f1f1</color>
+    <color name="green">#3cd968</color>
+    <color name="green_">#3C8346</color>
+    <color name="green_light">#8BD188</color>
+    <color name="incorrect">#ff7d7d</color>
+    <color name="light_background">#CCF3F5</color>
+    <color name="light_gray">#d4d4d4</color>
+    <color name="main_bg">#eeeff3</color>
+    <color name="neutral">#0a1b97</color>
+    <color name="off_white">#f4f4f4</color>
+    <color name="orange">#E37743</color>
+    <color name="orange_light">#ED9F3F</color>
+    <color name="pink">#C40F8E</color>
+    <color name="pink_light">#FB5293</color>
+    <color name="purple">#9E59E1</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="purple_light">#F17DC4</color>
+    <color name="red">#ff7d7d</color>
+    <color name="red_">#7B0D1E</color>
+    <color name="red_light">#93291E</color>
+    <color name="right_dark">#ff7d7d</color>
+    <color name="select_color">#901D6CBA</color>
+    <color name="shadowcolor">#212121</color>
+    <color name="sky">#439BD2</color>
+    <color name="sky_light">#73E1C0</color>
+    <color name="socialcolor">#D975BB</color>
+    <color name="spincolor">#131B63</color>
+    <color name="startColor">#888BF4</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="transparent">#00000000</color>
+    <color name="txt_color">#020607</color>
+    <color name="white">#ffffff</color>
+    <color name="wrong_dark">#3cd968</color>
+    <dimen name="CornerR">20dp</dimen>
+    <dimen name="cardElevation">10dp</dimen>
+    <dimen name="circle_progress">35dp</dimen>
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="img_height">155dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_7dp">7dp</dimen>
+    <dimen name="margin_dp">15dp</dimen>
+    <dimen name="mid_text">15sp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_30">30dp</dimen>
+    <dimen name="progress_h_w">40dp</dimen>
+    <dimen name="small_text">10sp</dimen>
+    <dimen name="text_12sp">12sp</dimen>
+    <dimen name="textsize_18">18sp</dimen>
+    <dimen name="textsize_34">34sp</dimen>
+    <dimen name="txt_size_16">16sp</dimen>
+    <dimen name="txt_size_20">20sp</dimen>
+    <dimen name="txtsize_18">18sp</dimen>
+    <dimen name="txtsize_22">22sp</dimen>
+    <string name="app_name">Meditation</string>
+    <string name="embark_on_a_journey_to_a_healthier_stronger_you_explore_personalized_workouts_exciting_challenges_and_a_community_of_fitness_enthusiasts_cheering_you_on">Embark on a journey to a healthier, stronger you. Explore personalized workouts, exciting challenges, and a community of fitness enthusiasts cheering you on!</string>
+    <string name="every_champion_starts_somewhere_will_it_be_with_a_login_or_a_registration">"Greetings, champion! Whether you're returning to conquer new challenges or gearing up for your first fitness adventure, we've got you covered. Sign in to continue your fitness conquest or register now to unlock a world of exciting workouts and challenges. Let's make every drop of sweat count!"</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="gcm_defaultSenderId" translatable="false">1086702897268</string>
+    <string name="google_api_key" translatable="false">AIzaSyDhuyDjVQs1EjQqKileQ4Fjaq0mw7YsSi4</string>
+    <string name="google_app_id" translatable="false">1:1086702897268:android:5e87297907f1b254aca921</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDhuyDjVQs1EjQqKileQ4Fjaq0mw7YsSi4</string>
+    <string name="google_storage_bucket" translatable="false">busy-dunia-devs.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="project_id" translatable="false">busy-dunia-devs</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_show_challanges">ShowChallanges</string>
+    <style name="Theme.Meditation" parent="Theme.AppCompat.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">@color/black</item>
+        
+    </style>
+    <style name="Theme.Meditation.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.Meditation.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Meditation.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

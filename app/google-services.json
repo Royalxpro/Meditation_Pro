@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1086702897268",
+    "project_id": "busy-dunia-devs",
+    "storage_bucket": "busy-dunia-devs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086702897268:android:5e87297907f1b254aca921",
+        "android_client_info": {
+          "package_name": "com.busyduniadevs.meditation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhuyDjVQs1EjQqKileQ4Fjaq0mw7YsSi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

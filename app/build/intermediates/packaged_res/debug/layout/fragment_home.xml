@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="top"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+
+
+
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/topbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:backgroundTint="@color/white"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0px"
+            android:elevation="8dp"
+            app:cardCornerRadius="20dp"
+            card_view:cardElevation="7dp"
+            card_view:cardPreventCornerOverlap="false">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/girlpf"/>
+
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:paddingTop="26dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/font7"
+                        android:gravity="start"
+                        android:text="Hi,"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/font7"
+                        android:gravity="start"
+                        android:text="Samar Saurav"
+                        android:textColor="#171532"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <LinearLayout
+                android:id="@+id/imageContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/customTimerCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginEnd="7dp"
+                    android:backgroundTint="@color/white"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0.0px"
+                    android:elevation="20dp"
+                    app:cardCornerRadius="20dp"
+                    card_view:cardElevation="9dp"
+                    card_view:cardPreventCornerOverlap="false">
+
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/topbarcycle"
+                    android:orientation="horizontal"
+                    android:gravity="end">
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:paddingEnd="20dp"
+
+                        android:paddingBottom="15dp">
+
+                        <Button
+                            android:id="@+id/btnReset"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Restart" />
+
+
+                        <TextView
+                            android:id="@+id/tvSelectedTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Selceted Time"
+                            android:gravity="center" />
+                        <TextView
+                            android:id="@+id/tvPoints"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:gravity="start" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="bottom">
+                            <Button
+                                android:id="@+id/btnPlus"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:gravity="center"
+                                android:text="+" />
+
+
+                            <Chronometer
+                                android:id="@+id/chronometer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:gravity="center"/>
+
+                            <Button
+                                android:id="@+id/btnMinus"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:gravity="center"
+                                android:text="-" />
+
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/btnStartPause"
+                            android:layout_width="wrap_content"
+                            android:layout_height="28dp"
+                            android:text="Start"
+                            android:textSize="13dp"
+                            android:textColor="@color/white"
+                            android:background="@drawable/btn_cycle"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                
+                <!-- CardViews will be added dynamically here -->
+            </LinearLayout>
+        </HorizontalScrollView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dayschallanges"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:backgroundTint="@color/white"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0px"
+            android:elevation="20dp"
+            app:cardCornerRadius="20dp"
+            card_view:cardElevation="9dp"
+            card_view:cardPreventCornerOverlap="false">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:src="@drawable/dayschalleng" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/fitshop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:backgroundTint="@color/white"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0px"
+            android:elevation="8dp"
+            app:cardCornerRadius="@dimen/margin_20dp"
+            card_view:cardElevation="7dp"
+            card_view:cardPreventCornerOverlap="false">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/fitsell" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:id="@+id/challangestext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:gravity="start">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Challanges"
+                android:textStyle="bold"
+                android:fontFamily="@font/font7"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/firstchallnges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/padding_15"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginEnd="@dimen/padding_15"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:backgroundTint="@color/white"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                app:cardCornerRadius="10dp"
+                card_view:cardElevation="7dp"
+                card_view:cardPreventCornerOverlap="false">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/yoga"
+                        android:layout_width="169dp"
+                        android:layout_height="127dp"
+                        android:src="@drawable/yoga" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/padding_15"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginEnd="@dimen/padding_15"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:backgroundTint="@color/white"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                app:cardCornerRadius="10dp"
+                card_view:cardElevation="7dp"
+                card_view:cardPreventCornerOverlap="false">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/fitness"
+                        android:layout_width="169dp"
+                        android:layout_height="127dp"
+                        android:src="@drawable/fitnessexercises" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/secondchallnges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/padding_15"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginEnd="@dimen/padding_15"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:backgroundTint="@color/white"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                app:cardCornerRadius="10dp"
+                card_view:cardElevation="7dp"
+                card_view:cardPreventCornerOverlap="false">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/musclegain"
+                        android:layout_width="169dp"
+                        android:layout_height="127dp"
+                        android:src="@drawable/muscle" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/padding_15"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginEnd="@dimen/padding_15"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:backgroundTint="@color/white"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                app:cardCornerRadius="10dp"
+                card_view:cardElevation="7dp"
+                card_view:cardPreventCornerOverlap="false">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/meditation"
+                        android:layout_width="169dp"
+                        android:layout_height="127dp"
+                        android:src="@drawable/meditation" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/padding_15"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginEnd="@dimen/padding_15"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:backgroundTint="@color/white"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="9dp"
+                app:cardCornerRadius="10dp"
+                card_view:cardElevation="7dp"
+                card_view:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp"
+                    android:src="@drawable/spinimage"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+</LinearLayout>

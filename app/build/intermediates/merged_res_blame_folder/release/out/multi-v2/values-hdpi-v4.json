@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.busyduniadevs.meditation.app-mergeReleaseResources-58:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "E:\\AndroidQuizOnline_7\\caches\\transforms-3\\ce3e4215d6d84c69864df2f7186e089d\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

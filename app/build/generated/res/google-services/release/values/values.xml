@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1086702897268</string>
+    <string name="google_api_key" translatable="false">AIzaSyDhuyDjVQs1EjQqKileQ4Fjaq0mw7YsSi4</string>
+    <string name="google_app_id" translatable="false">1:1086702897268:android:5e87297907f1b254aca921</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDhuyDjVQs1EjQqKileQ4Fjaq0mw7YsSi4</string>
+    <string name="google_storage_bucket" translatable="false">busy-dunia-devs.appspot.com</string>
+    <string name="project_id" translatable="false">busy-dunia-devs</string>
+</resources>

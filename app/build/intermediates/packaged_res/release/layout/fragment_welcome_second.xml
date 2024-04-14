@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".starterfragment.WelcomeSecond">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/welcomescreenbackground"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/elustrate"
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:src="@drawable/welcomesecondimg"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="start"
+           android:padding="20dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="39dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/lora"
+                android:textColor="@color/black"
+                android:text="Namaste"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="start"
+                android:paddingTop="20dp"
+                android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/mtextbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="23dp"
+                android:fontFamily="@font/puritan"
+                android:textColor="@color/black"
+                android:text="@string/every_champion_starts_somewhere_will_it_be_with_a_login_or_a_registration"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:paddingTop="20dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/loginwbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:background="@drawable/btn_round"
+                        android:fontFamily="@font/lora"
+                        android:textStyle="bold"
+                        android:paddingRight="57dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:paddingLeft="57dp"
+                        android:textSize="15sp"
+                        android:text="Login"/>
+
+                    <Button
+                        android:id="@+id/registerwbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:background="@null"
+                        android:fontFamily="@font/lora"
+                        android:textStyle="bold"
+                        android:paddingRight="27dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:paddingLeft="27dp"
+                        android:textSize="21sp"
+                        android:text="Register"/>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

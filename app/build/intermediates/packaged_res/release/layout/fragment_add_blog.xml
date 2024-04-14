@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.AddBlogFragment">
+
+    <ImageView
+        android:id="@+id/imagep"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_baseline_account_circle_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="35dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:background="@drawable/layoutbackpost"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ptitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background"
+            android:hint="Enter Title"
+            android:minHeight="80dp"
+            android:textColor="#212843"
+            android:gravity="center"
+            android:textSize="23dp"
+
+            android:textColorHint="#212843"
+            android:elevation="10dp"
+            android:padding="10dp"
+            android:singleLine="true" />
+
+
+        <EditText
+            android:id="@+id/pdes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_background"
+            android:gravity="start"
+            android:elevation="10dp"
+            android:visibility="gone"
+            android:hint="Enter Description"
+            android:inputType="textCapSentences|textMultiLine"
+            android:minHeight="120dp"
+            android:padding="10dp"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/pupload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:background="@drawable/buttons"
+            android:layout_gravity="end"
+            android:layout_marginTop="20sp"
+            android:text="Upload" />
+    </LinearLayout>
+
+</LinearLayout>

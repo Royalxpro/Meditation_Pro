@@ -1,0 +1,670 @@
+[
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_ic_baseline_feed_24.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\ic_baseline_feed_24.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\font_font6.ttf.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\font\\font6.ttf"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_anim_right_e.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\anim_right_e.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_activity_login.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_fitness5.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\fitness5.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_welcomesecondimg.png.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\welcomesecondimg.png"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_muscle1.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\muscle1.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_slide_from_right.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\slide_from_right.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_anim_right_dmath.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\anim_right_dmath.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_fragment_exit.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\fragment_exit.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_girlpf.png.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\girlpf.png"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_anim_right_amaths.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\anim_right_amaths.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_ic_like.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\ic_like.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_slide_to_left.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\slide_to_left.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_nutrition.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\nutrition.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_ic_baseline_community_24.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\ic_baseline_community_24.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_row_users.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\row_users.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_fittv.png.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\fittv.png"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_camerabtnfeed.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\camerabtnfeed.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\font_font2.otf.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\font\\font2.otf"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_posefive.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\posefive.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_activity_final.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\activity_final.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_meditation.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\meditation.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_loginback.png.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\loginback.png"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_default_user_img.png.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\default_user_img.png"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_activity_post_details.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\activity_post_details.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_welcomescreenbackground.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\welcomescreenbackground.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\font_font7.ttf.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\font\\font7.ttf"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_slide_in.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\slide_in.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_activity_fitness.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\activity_fitness.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\font_open_sans_bold.ttf.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\font\\open_sans_bold.ttf"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_btn_focusarea.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\btn_focusarea.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_zoom_in_out.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\zoom_in_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_edittext.png.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\edittext.png"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_slide.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\slide.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_activity_yoga.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\activity_yoga.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_mealimg.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\mealimg.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_fifty_fifty.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\fifty_fifty.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_muscle2.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\muscle2.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_fragment_add_blog.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\fragment_add_blog.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_fragment_welcome_second.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\fragment_welcome_second.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_slide_in_layout.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\slide_in_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_anim_right.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\anim_right.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\font_lora.ttf.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\font\\lora.ttf"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_anim_right_d.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\anim_right_d.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_buy2page.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\buy2page.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_activity_meal.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\activity_meal.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_yogabtnback.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\yogabtnback.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_muscle7.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\muscle7.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_fitness4.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\fitness4.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_loginbackt.png.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\loginbackt.png"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_anim_right_bmaths.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\anim_right_bmaths.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_backfeed.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\backfeed.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_posetwo.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\posetwo.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_continue_with.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\continue_with.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_ic_send.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\ic_send.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_fitsell.png.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\fitsell.png"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_fade_outmath.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\fade_outmath.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_fitness7.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\fitness7.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_backbtn.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\backbtn.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\navigation_nav_graph.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_left_right.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\left_right.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_bounce.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\bounce.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_activity_musclegain.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\activity_musclegain.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_password.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\password.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_buttons.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\buttons.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_yogafirst.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\yogafirst.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_dayschalleng.png.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\dayschalleng.png"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_mountainpose.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\mountainpose.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_edit_text_background.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\edit_text_background.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_dietimg.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\dietimg.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_anim_right_a.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\anim_right_a.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_activity_show_news_content.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\activity_show_news_content.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\font_puritan.ttf.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\font\\puritan.ttf"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\font_font3.ttf.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\font\\font3.ttf"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\font_open_sans.ttf.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\font\\open_sans.ttf"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_crosseye.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\crosseye.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_fragment_public_feed.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\fragment_public_feed.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\font_font5.otf.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\font\\font5.otf"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_posesix.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\posesix.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\menu_menu_nav.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\menu\\menu_nav.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_fragment_home.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_ic_baseline_search_24.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_fitness1.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\fitness1.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_muscle4.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\muscle4.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_ic_baseline_add_24.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_ic_liked.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\ic_liked.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_fragment_welcome_first.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\fragment_welcome_first.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_row_posts.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\row_posts.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_userimg.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\userimg.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_fade_out.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_row_comments.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\row_comments.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_slide_up.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_welcomefirstimg.png.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\welcomefirstimg.png"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_btn_roundtwo.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\btn_roundtwo.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_anim_right_b.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\anim_right_b.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_slide_out.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\slide_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_ic_more.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\ic_more.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_ic_comment.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\ic_comment.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_posefour.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\posefour.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_content_show_challanges.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\content_show_challanges.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_right_ans_anim.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\right_ans_anim.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_slide_up1.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\slide_up1.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_slide_leftright_layout.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\slide_leftright_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_fitness2.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\fitness2.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_muscle5.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\muscle5.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_ic_edit.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\ic_edit.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_drinkwater.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\drinkwater.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_poseseven.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\poseseven.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_btn_round.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\btn_round.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_ic_share.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\ic_share.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_ic_baseline_account_circle_24.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\ic_baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_anim_right_c.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\anim_right_c.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\font_font4.ttf.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\font\\font4.ttf"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_testyoga.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\testyoga.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_btn_roundlogin.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\btn_roundlogin.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_activity_register.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_muscle6.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\muscle6.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_activity_main.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_googlelogin.png.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\googlelogin.png"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_fitness3.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\fitness3.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\font_open_sans_semibold.ttf.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\font\\open_sans_semibold.ttf"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_salepage2.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\salepage2.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_open_next.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\open_next.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_comment.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\comment.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_registerscback.png.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\registerscback.png"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_fitnessexercises.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\fitnessexercises.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_muscle.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\muscle.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\menu_menu_main.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_timer_counter.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\timer_counter.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_fitness6.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\fitness6.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\font_font1.ttf.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\font\\font1.ttf"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_activity_all_exercises.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\activity_all_exercises.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_activity_splash_screen.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_activity_post_liked_by.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\activity_post_liked_by.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_yoga.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\yoga.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_spinimage.png.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\spinimage.png"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\font_font9.ttf.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\font\\font9.ttf"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_fragment_enter.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\fragment_enter.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_btn_finalactivity.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\btn_finalactivity.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_layoutbackyogatop.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\layoutbackyogatop.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_close_next.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\close_next.xml"
+    },
+    {
+        "merged": "com.busyduniadevs.meditation.app-merged_res-60:/layout_fragment_home.xml.flat",
+        "source": "com.busyduniadevs.meditation.app-main-61:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_muscle3.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\muscle3.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable_posethree.gif.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable\\posethree.gif"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\layout_fragment_plans.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\layout\\fragment_plans.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_anim_right_cmaths.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\anim_right_cmaths.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_postback.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\postback.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\xml_backup_rules.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\drawable-v24_layoutbackpost.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\drawable-v24\\layoutbackpost.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\xml_data_extraction_rules.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\anim_anim_right_emath.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\anim\\anim_right_emath.xml"
+    },
+    {
+        "merged": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-merged_res-60:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\AndroidQuizOnline_7\\daemon\\7.4\\com.busyduniadevs.meditation.app-main-61:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]

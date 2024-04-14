@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registerscback"
+    tools:context=".authentication.Register">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="690dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="start"
+            android:background="@drawable/loginbackt">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register Now"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:fontFamily="@font/puritan"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="39sp"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Join This Exiting World"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="15dp"
+                android:fontFamily="@font/puritan"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="19sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:gravity="start">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:paddingBottom="10dp"
+                    android:text="Username"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:paddingStart="10dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/edittext"
+                    android:gravity="start">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/userimg"
+                        android:layout_gravity="center"/>
+                    <EditText
+                        android:id="@+id/FullName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Name"
+                        android:background="@null"
+                        android:paddingStart="10dp"
+                        android:gravity="start|center"
+                        android:textColor="@color/white"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/usernamebox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:gravity="start">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:paddingBottom="10dp"
+                    android:text="Email"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:paddingStart="10dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/edittext"
+                    android:gravity="start">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/userimg"
+                        android:layout_gravity="center"/>
+                    <EditText
+                        android:id="@+id/Email"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Email"
+                        android:background="@null"
+                        android:paddingStart="10dp"
+                        android:gravity="start|center"
+                        android:textColor="@color/white"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:gravity="start">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:paddingBottom="10dp"
+                    android:text="Password"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:paddingStart="10dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/edittext"
+                    android:gravity="start">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/userimg"
+                        android:layout_gravity="center"/>
+                    <EditText
+                        android:id="@+id/Password"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Password"
+                        android:background="@null"
+                        android:paddingStart="10dp"
+                        android:gravity="start|center"
+                        android:textColor="@color/white"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:gravity="start">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:paddingBottom="10dp"
+                    android:text="Phone"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:paddingStart="10dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/edittext"
+                    android:gravity="start">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/userimg"
+                        android:layout_gravity="center"/>
+                    <EditText
+                        android:id="@+id/Phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Phone"
+                        android:background="@null"
+                        android:paddingStart="10dp"
+                        android:gravity="start|center"
+                        android:textColor="@color/white"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/signinandgooglebox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top|center"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+                <Button
+                    android:id="@+id/Register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_roundlogin"
+                    android:paddingStart="85dp"
+                    android:paddingEnd="85dp"
+                    android:textColor="@color/white"
+                    android:text="Register"
+                    android:textSize="25sp" />
+
+
+                <LinearLayout
+                    android:id="@+id/termcbox"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#fff"
+                        android:checked="false"
+                        android:shadowColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/termsandcondition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:text=" Agree Terms and Condition &amp;"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/pprivacypolicy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  Privacy Policy       "
+                        android:textSize="15sp"
+                        android:textColor="#fff"
+                        android:textStyle="italic" />
+
+
+
+                </LinearLayout>
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Loginbtn"
+                    app:layout_constraintVertical_bias="0.759" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
